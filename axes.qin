@@ -1,0 +1,47 @@
+l q1
+ttl Q1. Very beautiful product.
+ttl  1- strongly agree 5 – strongly disagree
+n01  Brand A   		;col(a)=130;inc(1)=c130
+n01  Brand B    		;col(a)=140;inc(1)=c140
+n01  Brand C    		;col(a)=150;inc(1)=c150
+side
+n01  Strongly agree   		;ca00'1'
+n01  Somewhat agree   		;ca00'2'
+n01  Neither   		;ca00'3'
+n01  Somewhat disagree   		;ca00'4'
+n01  Strongly disagree   		;ca00'5'
+n25;inc=inc(1)
+n12Mean
+
+
+n25;inc=inc(1)
+n12Mean
+
+
+l q1_1
+ttl Q1. Very beautiful product. : Brand A
+n01  Strongly agree   		;c130'1'
+n01  Somewhat agree   		;c130'2'
+n01  Neither   		;c130'3'
+n01  Somewhat disagree   		;c130'4'
+n01  Strongly disagree   		;c130'5'
+
+
+l q1_2
+ttl Q1. Very beautiful product. : Brand B 
+n01  Strongly agree   		;c140'1'
+n01  Somewhat agree   		;c140'2'
+n01  Neither   		;c140'3'
+n01  Somewhat disagree   		;c140'4'
+n01  Strongly disagree   		;c140'5'
+
+
+l q1_3
+ttl Q1. Very beautiful product. : Brand C 
+n01  Strongly agree   		;c150'1'
+n01  Somewhat agree   		;c150'2'
+n01  Neither   		;c150'3'
+n01  Somewhat disagree   		;c150'4'
+n01  Strongly disagree   		;c150'5'
+
+

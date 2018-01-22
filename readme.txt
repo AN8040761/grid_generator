@@ -6,7 +6,7 @@
 2. Run:
 bash grid.sh
 
-2. The axes for a grid table and for detailed tables will be attached to axes.qin and you should just move them to reflect the question number.
+3. The axes for a grid table and for detailed tables will be attached to axes.qin and you should just move them to reflect the question number.
 
 
 
